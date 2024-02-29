@@ -1,0 +1,41 @@
+
+.container_background{
+    background-image: url("./images/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    border: 6px grey solid;
+    border-radius: 40px;
+    max-width: 370px;
+    margin:0 auto;
+    height: 75vh;
+    overflow-y: auto;
+
+}
+.container_users_scroll{
+   
+    overflow-x: auto; /* Habilita el desplazamiento horizontal si el contenido desborda */
+    -webkit-overflow-scrolling: touch; /* Mejora el desplazamiento en dispositivos táctiles */
+ 
+    scrollbar-color:transparent; /* Colores de la barra de desplazamiento para Firefox */
+}
+
+.container_users_scroll img {
+    width: 75px;
+    border-radius: 50%;
+    border: 3px solid grey
+}
+
+.container_users_scroll span,
+.container_histories span{
+    color:grey;
+    font-size: small;
+}
+
+
+
+
+.container_histories img{
+    border-radius: 10px;
+    
+}
+
